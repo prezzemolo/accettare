@@ -1,6 +1,6 @@
 accettare
 ==========
-[![][mit-badge]][mit]
+[![][mit-badge]][mit]  
 simple accept-language parser.
 
 LICENSE
