@@ -1,0 +1,16 @@
+{
+  "name": "accettare",
+  "version": "0.0.1",
+  "description": "simple accept-language parser",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prezzemolo/accettare.git"
+  },
+  "author": "prezzemolo <contact@prezzemolo.ga>",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/prezzemolo/accettare/issues"
+  }
+}
