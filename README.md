@@ -26,6 +26,6 @@ LICENSE
 The MIT License. See [LICENSE](LICENSE).
 
 [npm]: https://www.npmjs.com/package/accettare
-[npm-badge]: [https://nodei.co/npm/accettare.svg]
+[npm-badge]: https://nodei.co/npm/accettare.png
 [mit]: http://opensource.org/licenses/MIT
 [mit-badge]: https://img.shields.io/badge/license-MIT-444444.svg?style=flat-square
