@@ -92,7 +92,10 @@ function matchAccept (properties, langs) {
  */
 module.exports.get = (header) => {
     if (!header) {
-        throw new Error('accettare.get: please pass valid string.')
+        throw new Error('accettare.get: please pass valid string.');
+    }
+    if (!this.valid) {
+        throw new Error('accettare.get: please run accettare.languages before.');
     }
 
     /* convert to array and BCP47 check */
