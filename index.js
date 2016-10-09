@@ -74,10 +74,18 @@ function matchAccept (properties, langs) {
             if (property.priority === 0) {
                 break;
             }
-            if (lang.bcp47.language === property.bcp47.language && priority <= property.priority) {
-                match = lang.raw;
-                priority = property.priority;
-                break;
+
+            if (priority === property.priority){
+                if (lang.lang === property.lang) {
+                    match = lang.raw;
+                    priority = property.priority + 0.001;
+                    break;
+                }
+                if (lang.bcp47.language === property.bcp47.language) {
+                    match = lang.raw;
+                    priority = property.priority;
+                    break;
+                }
             }
         }
     }
