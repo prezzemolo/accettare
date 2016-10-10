@@ -75,7 +75,7 @@ function matchAccept (properties, langs) {
                 break;
             }
 
-            if (priority === property.priority){
+            if (priority < property.priority){
                 if (lang.lang === property.lang) {
                     match = lang.raw;
                     priority = property.priority + 0.001;
