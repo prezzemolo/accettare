@@ -1,5 +1,7 @@
 accettare [![][mit-badge]][mit]
 ==========
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/prezzemolo/accettare.svg)](https://greenkeeper.io/)
 [![][npm-badge]][npm]  
 simple accept-language parser.
 
